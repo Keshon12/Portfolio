@@ -28,11 +28,12 @@
     font-size: 50px;
   }
   
-  #nav-list {
+  ul {
     padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
   }
   
   #about-me,#my-projects,#contact,#resume {
