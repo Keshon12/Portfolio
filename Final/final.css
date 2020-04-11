@@ -67,6 +67,7 @@
     width: 985px;
     box-shadow: 0 0 6px #39ff14 0 0 10px #fff;
   }
+
   .imageBox {
     text-align: center;
   }
@@ -74,6 +75,8 @@
   #MilwaukeeSkyline {
     border-radius: 5px;
     box-shadow: 0 0 20px #fff 0 0 12px #00471b;
+    height: 700px;
+    width: 900px;
   }
   
   #aboutMe {
@@ -153,12 +156,26 @@
   #footerIcons:hover {
     color: #000;
   }
-  
+
   
   @media only screen and (max-width: 600px) {
       p {
         padding: 0px;
         margin-left: 10px;
         margin-right: 10px;
+      }
+
+      #MilwaukeeSkyline {
+        border-radius: 5px;
+        box-shadow: 0 0 20px #fff 0 0 12px #00471b;
+        height: 350px;
+        width: 550px;
+      }
+
+      #bucks-logo {
+        text-align: center;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 0 0 20px #fff 0 0 12px #00471b;
       }
     }
