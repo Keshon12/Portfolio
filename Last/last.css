@@ -93,6 +93,7 @@
   }
   
   #myProjects {
+    max-width: 59em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -100,6 +101,8 @@
   #projectsArea {
     display: flex;
     align-items: center;
+    height: 500px;
+    width: 400px;
     background-color: transparent;
     border-radius: 5px;
     padding-bottom: 100px;
@@ -110,16 +113,10 @@
     font-size: 28px;
   }
   
-  #myProjects-figure {
+  #myProjects figure {
     text-align: center;
-    height: 20px;
-    width: 100%;
-    padding-top: 200px;
-  }
-  
-  #quiz {
-    height: 50px;
-    width: 50px;
+    float: left;
+    width: 35%;
   }
   
   #project1 {
