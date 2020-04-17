@@ -101,8 +101,6 @@
   #projectsArea {
     display: flex;
     align-items: center;
-    height: 500px;
-    width: 400px;
     background-color: transparent;
     border-radius: 5px;
     padding-bottom: 100px;
